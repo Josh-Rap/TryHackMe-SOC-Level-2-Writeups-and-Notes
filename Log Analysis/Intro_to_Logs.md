@@ -42,7 +42,7 @@ logrotate configuration
 components of gitlab instance 
 `/var/opt/gitlab/logrotate/logrotate.d/`
 
-### Questions
+## Questions
 What is the name of your colleague who left a note on your Desktop?
 - `Perry` (Desktop `note.txt`)
 
