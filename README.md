@@ -14,6 +14,9 @@ SOC Level 2 focuses on in-depth log analysis, detection engineering, threat hunt
 <img src="https://tryhackme-images.s3.amazonaws.com/room-icons/2e995cb333fb7c9fabeafe718927704e.svg" alt="intro to log analysis" width="100"/>
 
 ### Advanced Splunk
+- [Splunk: Exploring SPL](https://github.com/Josh-Rap/TryHackMe-SOC-Level-2-Writeups-and-Notes/blob/main/Log%20Analysis/2.Intro_to_Log_Analysis.md)
+<img src="https://tryhackme-images.s3.amazonaws.com/room-icons/10276e702a014f44aad22f1302b6c309.png" alt="Splunk: Exploring SPL" width="100"/>
+
 ### Advanced ELK
 ### Detection Engineering
 ### Threat Hunting
